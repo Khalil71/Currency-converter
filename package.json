@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha src/tests/*.test.js --exit",
-    "start": "node src/server",
-    "update": "nodemon src/server"
+    "start": "node src/server"
   },
   "author": "Khalil",
   "license": "ISC",
