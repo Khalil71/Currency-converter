@@ -1,8 +1,6 @@
 # Currency Converter
 
-### Prerequisites
-
-What you need to install
+### What you need to install
 
 ```
 Node.js
