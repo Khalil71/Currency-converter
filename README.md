@@ -64,7 +64,7 @@ dbURL: URL to local MongoDB
 allowedFloats: Number of digits allowed after decimal point
 ```
 
-I chose MongoDB simply it didn't make such of a difference to me also it was already installed on my machine.
+I chose MongoDB simply because it didn't make such of a difference to me also it was already installed on my machine.
 
 ## Author
 
