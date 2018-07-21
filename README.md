@@ -10,10 +10,6 @@ Node.js
 MongoDB
 ```
 
-```
-Postman
-```
-
 ### Installing dependencies
 
 ```
