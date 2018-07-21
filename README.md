@@ -1,11 +1,11 @@
-# Cache APIs
+# Currency Converter
 
 ### Prerequisites
 
 What you need to install
 
 ```
-node.js
+Node.js
 ```
 
 ```
@@ -38,7 +38,7 @@ $ npm run test
 
 Server runs on http://localhost:3000/
 
-### Make convertion from once currency to another
+### Make convertion from one currency to another
 
 ```
 POST /
