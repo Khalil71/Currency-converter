@@ -40,6 +40,8 @@ POST /
 
 body: (from [string]: required) (to [string]: required) (amount [number]: required)
 
+- **Note: amount will only accept up to 2 digits after the decimal point**
+
 ### configs
 
 ```
