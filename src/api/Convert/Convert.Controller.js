@@ -4,18 +4,18 @@ const { currencyISO, number } = require('../../helpers/validation');
 
 module.exports = {
   convertAmount: (req, res, next) => {
-    if (!req.body.from || !currencyISO.test(req.body.from)) {
+    if (!req.body.from || !currencyISO.test(req.body.from.toUpperCase())) {
       return next(errResponse('Please enter a vaild ISO currency in the "from" section', 403));
     }
-    if (!req.body.to || !currencyISO.test(req.body.to)) {
+    if (!req.body.to || !currencyISO.test(req.body.to.toUpperCase())) {
       return next(errResponse('Please enter a vaild ISO currency in the "to" section', 403));
     }
     if (!req.body.amount || !number.test(req.body.amount)) {
       return next(errResponse('Please enter a vaild number in the amount section', 403));
     }
     const instance = new Convertion({
-      from: req.body.from,
-      to: req.body.to,
+      from: req.body.from.toUpperCase(),
+      to: req.body.to.toUpperCase(),
       amount: req.body.amount
     });
     return instance

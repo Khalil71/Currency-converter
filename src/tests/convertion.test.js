@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const mongoose = require('mongoose');
 const server = require('./mockServer.js');
-const Convert = require('../APIs/Convert/Convert.Service');
+const Convert = require('../api/Convert/Convert.Service');
 const ConvertionModel = require('../models/convert');
 
 const { dbURL } = require('../config/config');

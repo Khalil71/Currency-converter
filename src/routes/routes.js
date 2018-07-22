@@ -1,6 +1,6 @@
 const { Router } = require('express');
 
-const ConvertRoutes = require('../APIs/Convert/index');
+const ConvertRoutes = require('../api/Convert/index');
 
 const router = new Router();
 
